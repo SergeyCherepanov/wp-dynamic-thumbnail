@@ -1,5 +1,4 @@
 <?php
-header('Content-type: text/css');
 header("Expires: " . date('D, j F Y H:i:s', (gmmktime() + (3 * 60 * 60))) . " GMT");
 header("Cache-control: public, max-age=1800");
 header("Pragma: cache");
